@@ -3,6 +3,7 @@ import { Title } from '@/components/Title';
 import { josefin } from '@/utils/fonts';
 import { Interactive } from '@/components/Interactive';
 import { Creations } from '@/components/Creations';
+import { Footer } from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         </main>
         <Interactive/ >
         <Creations />
+        <Footer />
       </>
   );
 }
