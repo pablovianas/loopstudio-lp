@@ -21,7 +21,6 @@ export const Creations = () => {
             </div>
             <ul className="sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 grid grid-cols-4 gap-8">
                 {creations.map((creation, index) => {
-                    console.log(creation.title)
                     const splitTitle = creation.title.split(" ");
                     const formattedTitle = splitTitle.join("\n");
                     return (
