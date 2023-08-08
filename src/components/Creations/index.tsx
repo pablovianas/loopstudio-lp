@@ -1,7 +1,5 @@
 import { alata, josefin } from "@/utils/fonts";
 import { creations } from "@/utils";
-import { useEffect, useState } from "react";
-import Image from "next/image";
 export const Creations = () => {
     
     
@@ -36,7 +34,7 @@ export const Creations = () => {
                                         srcSet={creation.imageMobile.src}
                                     />
                                     <img
-                                        className="w-full"
+                                        className="w-full hover:opacity-[0.4]"
                                         src={creation.imageDesktop.src}
                                         alt={creation.title}
                                     />
