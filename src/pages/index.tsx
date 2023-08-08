@@ -2,6 +2,7 @@ import { Header } from '@/components/Header';
 import { Title } from '@/components/Title';
 import { josefin } from '@/utils/fonts';
 import { Interactive } from '@/components/Interactive';
+import { Creations } from '@/components/Creations';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
             <Title font={josefin}/>
         </main>
         <Interactive/ >
+        <Creations />
       </>
   );
 }

@@ -4,7 +4,7 @@ import { alata, josefin } from "@/utils/fonts";
 
 export const Interactive = () => {
     return (
-        <section className="sm:mt-24 sm:justify-start 2xl:p-8 md:mt-8 md:mb-12 xl:min-h-[100vh] xl:items-center justify-center   flex-col max-w-[1280px] mx-auto flex  mt-40 mb-48 relative">
+        <section className="sm:mt-24 sm:justify-start 2xl:p-8 md:mt-8 md:mb-12 xl:min-h-[80vh] xl:items-center justify-center   flex-col max-w-[1280px] mx-auto flex  mt-40 mb-48 relative">
             <Image src={guyWearingVr} alt="guy wearing vr" />
             <div className="2xl:bottom-[5.7%] xl:relative xl:left-0 xl:flex flex-col items-center justify-center xl:max-w-[100%] max-w-[560px] absolute right-0 bottom-0 left-[45%] bg-[#fff] ">
                 <h3
